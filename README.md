@@ -3,7 +3,7 @@
 ### Deployed at:
 
 ```
-Coming soon
+https://suretuch.netlify.app/
 ```
 
 ## Usage
