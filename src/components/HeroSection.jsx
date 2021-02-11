@@ -1,6 +1,6 @@
 import { Button } from "./Button.jsx";
 import "./HeroSection.css";
-import bgVid from "../videos/video-2.mp4";
+/* import bgVid from "../videos/video-2.mp4"; */
 
 function HeroSection() {
   return (
