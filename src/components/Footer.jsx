@@ -1,7 +1,8 @@
 import { Button } from "./Button.jsx";
 import "./Footer.css";
 import { Link } from "react-router-dom";
-import { MdBusiness, MdCallMade } from "react-icons/md";
+import { MdBusiness } from "react-icons/md";
+import { VscLinkExternal } from "react-icons/vsc";
 
 function Footer(){
   return(
@@ -63,7 +64,7 @@ function Footer(){
             </Link>
           </div>
           <small className="website-rights">
-            Sure-Tuch Creations &copy; {(new Date().getFullYear())} | Made by <a target="_blank" href="http://charleskimani.com/linkedin">Charles<MdCallMade /> </a>
+            Sure-Tuch Creations &copy; {(new Date().getFullYear())} | Made by <a target="_blank" href="http://charleskimani.com/linkedin">Charles<VscLinkExternal /> </a>
           </small>
           <div className="social-icons">
             <Link className="social-icon-link facebook" to="/" target="_blank" aria-label="Facebook">
